@@ -10,16 +10,19 @@ namespace SomeTests
     {
         // takes a string change any text into lowercase then uppercase on repeat, ignoring spaces
         public string TextToSpongeBobMeme(string str) {
+            
             return "";
         }
 
         // takes 3 words, return a string removing the middle word leaving one space
         public string RemoveMiddleWord(string str) {
+
             return "";
         }
 
         // takes an array of ints, return the sum of the array NOT INCLUDING THE LARGEST NUMBER
         public int SumIgnoringMax(int[] intArr) {
+            
             return -1;
         }
 
