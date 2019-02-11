@@ -9,8 +9,9 @@ namespace SomeTests
     public class SomeTest
     {
         // takes a string change any text into lowercase then uppercase on repeat, ignoring spaces
+        // Hello => hElLo first character should be a lowercase
         public string TextToSpongeBobMeme(string str) {
-            
+
             return "";
         }
 
@@ -41,6 +42,13 @@ namespace SomeTests
             //some code to make it work, good luck 
             
             return pyramid;
+        }
+
+        // takes 2 int arrays, returns teh elements from the first array that aren't in the 
+        // second array
+        public int[] Different(int[] arr1, int[] arr2) {
+
+            return new int[] { };
         }
     }
 }

@@ -54,7 +54,14 @@ namespace SomeTestsForIt
                 { ' ', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', ' ' },
                 { '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*' }
             }, Tests.Pyramid(7, 13));
-
+        }
+        [TestMethod]
+        public void Check_Different()
+        {
+            var Tests = new SomeTests.SomeTest();
+            Assert.AreEqual(new int[] { 1, 3, 4, 5 }, Tests.Different(new int[] { 1,2,3,4,5 }, new int[] { 2 }));
+            Assert.AreEqual(new int[] { }, Tests.Different(new int[] { }, new int[] { 2, 3, 4 }));
+            Assert.AreEqual(new int[] { 2, 3, 4 }, Tests.Different(new int[] { 2, 3, 4 }, new int[] { }));
         }
     }
 }

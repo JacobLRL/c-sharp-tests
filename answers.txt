@@ -72,3 +72,10 @@ May not be the perfect solution:
             }
             return pyramid;
         }
+
+	// takes 2 int arrays, returns teh elements from the first array that aren't in the 
+        // second array
+        public int[] Different(int[] arr1, int[] arr2) {
+
+            return new int[] { };
+        }
